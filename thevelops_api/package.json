@@ -1,0 +1,21 @@
+{
+  "name": "thevelops_app",
+  "version": "1.0.0",
+  "description": "RESTful API thevelops",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && jest tests/",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "author": "Matheus Spedaletti",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "create-react-app": "^1.4.3",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7"
+  }
+}
